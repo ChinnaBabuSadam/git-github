@@ -2,7 +2,7 @@
 describe("TemperatureCtrl.getCurrentMedian(): 1. when we have no values in the list", function () {
 
     ctrl2 = new TemperatureCtrl();
-    it("should return Temperature added successfully", function () {
+    it("should return Invalid action!", function () {
         expect(ctrl2.getCurrentMedian()).toEqual('Invalid action!');
     });
 });
